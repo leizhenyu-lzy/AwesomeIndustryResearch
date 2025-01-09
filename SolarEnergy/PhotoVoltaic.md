@@ -13,21 +13,23 @@
 
 核心 : 太阳能电池板
 
-光伏 制造技术门槛(technical barrier)低，扩产周期短，容易 供过于求、产能过剩、价格战
+光伏 制造技术门槛(Technical Barrier)低，扩产周期短，容易 供过于求、产能过剩、价格战
 
-## 产业链
+## 产业链 (industrial and supply chains)
 
 半导体 + 新能源 需求
 
 产业链
-1. 硅料(silicon material / raw silicon)
+1. 硅料(silicon material / raw silicon) - 利润率最高(技术壁垒高)
    1. 多晶硅 polysilicon (逐渐被代替)
    2. 单晶硅 mono-crystal silicon (光电转换效率高，性能稳定)
    3. 颗粒硅(硅烷流化床法)、棒状硅(三氯氢硅法)
-2. 硅片(silicon wafer)
+2. 硅片(silicon wafer) - 利润率较高
    1. 硅片 产量以 GW 为单位，关注的是硅片在太阳能电池中的发电能力，而不是硅片的数量或重量
-3. 电池板(solar cell/panel)
-4. 成品组件(solar/PV module)
+3. 电池板(solar cell/panel) - 中等利润率
+   1. PERC 电池趋于标准化后，利润率有所下降
+   2. 新兴技术(HJT, TOPCon)可能有更高的利润空间
+4. 成品组件(solar/PV module) - 利润率最低(门槛低)
 
 <img src="Pics/solar001.png" width=600>
 
@@ -37,7 +39,7 @@
 
 
 
-业务方向
+业务方向 Business Lines/Scope/Domain
 1. 光伏产品
    1. 单晶
    2. 多晶
@@ -45,9 +47,9 @@
    1. 电站
    2. 个人/商用
 3. 智慧能源
-   1. 管理系统
+   1. 管理系统(Digital Management System)
    2. 云平台
-   3. 运维
+   3. 运维(Operation & Maintenance Service)
       1. 清洁(人工、清洁车(车载吊臂(履带、卡车、拖拉机))、机器人(联排挂式，光伏自走))
       2. <img src="Pics/solar010.png" width=300>
       3. <img src="Pics/solar011.png" width=300>
@@ -78,14 +80,19 @@
 2. 运维成本
 3. 发电量
 
+
 度电成本降低方式
 1. 降低原材料(工艺)
 2. 提高转化效率
 
+
 <img src="Pics/solar004.png">
+
 
 利润分配
 1. 规模为出货量，用 瓦 表示
+   1. W, KW, MW, GW
+   2. 1 GW = 10^9 W (一座核电站的功率输出、33 万户家庭的用电量)
 2. 使用 每瓦 毛利or净利润 研究利润分配
 3. 选择龙头企业
 4. 硅料龙头
@@ -159,7 +166,7 @@
    1. P型电池(基底掺 硼)，表面掺杂少量的N型材料，制造成本较低，转化效率上限低(受**光致衰减（LID）**的影响)
    2. N型电池(基底掺 磷)，表面掺杂少量的P型材料，没有光致衰减问题，效率通常较高，寿命也更长，但制造成本相对较高
 5. 发展路径
-   1. AL-BSF (铝背场电池)
+   1. AL-BSF (Aluminium Back Surface Field 铝背场电池)
       1. 2015之前
       2. 基本淘汰
    2. PERC Cells (Passivated Emitter and Rear Cell 发射极和背面钝化电池)
@@ -172,7 +179,7 @@
    4. Hetero-Junction Cells (HJT 异质结电池)
       1. 处于降本提效关键期
       2. 中期
-   5.  Perovskite 钙钛矿叠层电池
+   5.  Perovskite 钙钛矿 叠层电池(Tandem Solar Cell)
       1. <img src="Pics/solar027.png" width=400>
       2. $ABX_3$ 作为吸光层，制成薄膜型太阳能电池，利用紫外和蓝绿光
       3. 晶硅电池有效利用红外光，与其叠层可以更高效的吸收光谱
@@ -210,15 +217,15 @@
 3. 杂质半导体
    1. <img src="Pics/solar016.png" width=500>
    2. N型 半导体(negative，对应电子)
-      1. 掺杂了 施主杂质(磷，5价元素，提供电子)，在晶体中引入 自由电子(负电荷载流子)
+      1. 掺杂了 施主杂质(磷 phosphorus，5价元素，5-valent atoms，提供电子)，在晶体中引入 自由电子(负电荷载流子)
       2. 电子 是主要载流子，靠自由电子导电
    3. P型 半导体(positive，对应空穴)
-      1. 掺杂了 受主杂质(硼，3价元素，吸收电子)，在晶体中引入    空穴(正电荷载流子)
+      1. 掺杂了 受主杂质(硼 boron，3价元素，3-valent atoms，吸收 attract 电子)，在晶体中引入    空穴(正电荷载流子)
       2. 空穴 是主要载流子，靠 空穴 导电
-4. PN结 - 单向导电性
+4. PN结(junction) - 单向导电性
    1. 将 P & N 型半导体制作在同一块硅片上，交界面形成 PN 结
    2. <img src="Pics/solar017.png" width=400>
-   3. 空间电荷区(耗尽区)
+   3. 空间电荷区(耗尽区，depletion region)
       1. 空穴 & 自由电子 因为 扩散运动(从高浓度区域向低浓度区域扩散) 复合(电子和空穴消失，留下固定的电荷离子)
       2. P区 出现 负离子区(失去了空穴，留下了固定的负电荷)，N区 出现 正离子区(失去了自由电子，留下了固定的正电荷)
       3. 离子不能移动，形成内电场，方向 N 指向 P
@@ -228,10 +235,10 @@
    5. 平衡状态下，不再有新的电子或空穴跨过 PN 结，耗尽区的宽度和内建电场的强度也会保持稳定
    6. 外加正向电压导通
       1. <img src="Pics/solar018.png" width=400>
-      2. 削弱内电场，加剧扩散运动，耗尽区变窄
+      2. 削弱内电场，加剧扩散运动，耗尽区变窄，allowing current to flow across the junction
    7. 外加负向电压截止
       1. <img src="Pics/solar019.png" width=400>
-      2. 加强内电场，阻止扩散运动，耗尽区变宽
+      2. 加强内电场，阻止扩散运动，耗尽区变宽，blocking the current flow
 
 
 
